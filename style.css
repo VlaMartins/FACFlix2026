@@ -38,9 +38,14 @@ img{
     width: 256px;
 }
 
+img{
+    height: 180px;
+    width: 270px;
+}
+
 .categoria-videos{
     display: flex;
     overflow-x: auto;
-    gap: 10px;
+    gap:10px;
     max-width: 100%;
 }
