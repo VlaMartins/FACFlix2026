@@ -13,7 +13,7 @@ header{
     color: antiquewhite;
 }
 
-section{
+.chamada{ /* se chamava section mas precisamos mudar para .chamada.   */
     background-color: black;
     padding-bottom: 80px;
     padding-top: 80px;
@@ -21,13 +21,6 @@ section{
     justify-content: center;
 }
 
-.chamada{
-    background-color: rgb(143, 79, 143);
-    padding-top: 80px;
-    padding-bottom: 80px;
-    display: flex;
-    justify-content: center;
-}
 
 .chamada-texto{
     margin-right: 5%;
