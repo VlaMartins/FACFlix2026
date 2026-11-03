@@ -50,6 +50,10 @@ img{
     width: 270px;
 }
 
+.logo{
+    height: 150px;
+}
+
 .categoria{
     padding-top: 20px;
     background-color:var(--fundo-secundario);
