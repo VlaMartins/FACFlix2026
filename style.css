@@ -1,20 +1,29 @@
+:root {
+  --fundo-principal: #1A0804;
+  --fundo-secundario: #30150D;
+  --creme: #F4D49C;
+  --dourado: #D9A866;
+  --terracota: #B83E29;
+  --areia-clara: #E7D6B9;
+}
+
 body{
-    background-color: black;
-    color: rgb(245, 237, 178);
+    background-color: var(--fundo-principal);
+    color: var(--areia-clara);
     font-family: "Roboto Mono", monospace;
     /* font-family: "Parisienne", cursive; */
     margin: 0px;
 }
 
 header{
-    border-bottom: double 2px rgb(245, 237, 178);
+    border-bottom: var(--creme);
     padding: 30px;
     font-size: 32px;
-    color: antiquewhite;
+    color: var(--areia-clara);
 }
 
 .chamada{ /* se chamava section mas precisamos mudar para .chamada.   */
-    background-color: black;
+    background-color: var(--fundo-secundario);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -41,7 +50,7 @@ img{
 
 .categoria{
     padding-top: 20px;
-    background-color: rgb(105, 48, 105);
+    background-color:var(--fundo-secundario);
     padding-left: 20px;
     padding-right: 20px ;
 }
