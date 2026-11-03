@@ -10,7 +10,7 @@
 body{
     background-color: var(--fundo-principal);
     color: var(--areia-clara);
-    font-family: "Roboto Mono", monospace;
+    font-family: sans-serif;
     /* font-family: "Parisienne", cursive; */
     margin: 0px;
 }
@@ -29,7 +29,6 @@ header{
     display: flex;
     justify-content: center;
 }
-
 
 .chamada-texto{
     margin-right: 5%;
