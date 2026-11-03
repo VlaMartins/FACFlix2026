@@ -18,7 +18,7 @@ body{
 header{
     border-bottom: var(--creme);
     padding: 30px;
-    font-size: 32px;
+    font-size: 28px;
     color: var(--areia-clara);
 }
 
@@ -35,7 +35,7 @@ header{
 }
 
 h1{
-    font-size: 40px;
+    font-size: 45px;
     color: var(--dourado);
 }
 
